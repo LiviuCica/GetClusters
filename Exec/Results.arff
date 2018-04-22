@@ -1,0 +1,218 @@
+@relation train_600-weka.filters.unsupervised.instance.RemoveFolds-S0-N3-F2_clustered
+
+@attribute Instance_number numeric
+@attribute termdays {15,30,60,90}
+@attribute bank_account_type {Other,Savings,Current}
+@attribute bank_name_clients {EcoBank,'Access Bank','First Bank','Union Bank',UBA,'Zenith Bank','GT Bank','Stanbic IBTC','Diamond Bank','Sterling Bank','Skye Bank','Fidelity Bank','Wema Bank','Keystone Bank',FCMB,'Unity Bank','Heritage Bank','Standard Chartered'}
+@attribute employment_status_clients {Permanent,Unemployed,Self-Employed,Student,Retired,Contract}
+@attribute rankloanamt {1,2,3,4}
+@attribute rankloannum {1,2,3}
+@attribute isreffered {0,1}
+@attribute totalduerank {1,2,3}
+@attribute agerank {1,2,3}
+@attribute avgloanamtrank {1,2,3,4}
+@attribute repaymentrank {1,2,3,4}
+@attribute good_bad_flag {Good,Bad}
+@attribute Cluster {cluster0,cluster1}
+
+@data
+0,60,Savings,'GT Bank',Permanent,2,2,0,2,1,3,3,Good,cluster1
+1,30,Savings,'Diamond Bank',Permanent,2,1,0,1,1,2,2,Good,cluster0
+2,60,Other,'Skye Bank',Self-Employed,2,1,0,2,1,2,3,Good,cluster1
+3,15,Savings,'Zenith Bank',Permanent,1,1,0,1,2,2,2,Good,cluster0
+4,30,Current,'Union Bank',Permanent,1,1,0,1,2,2,3,Good,cluster0
+5,15,Savings,'Sterling Bank',Permanent,1,1,1,1,2,2,3,Good,cluster0
+6,30,Other,'Zenith Bank',Self-Employed,3,2,0,2,2,3,2,Good,cluster1
+7,15,Other,'GT Bank',Permanent,2,1,0,1,1,2,2,Good,cluster0
+8,30,Other,UBA,Self-Employed,3,2,0,2,1,3,2,Good,cluster1
+9,30,Savings,'Access Bank',Unemployed,2,1,1,1,1,2,3,Good,cluster0
+10,15,Savings,'Wema Bank',Permanent,1,1,0,1,1,2,3,Good,cluster0
+11,30,Other,'Zenith Bank',Permanent,2,2,0,1,1,2,2,Good,cluster1
+12,60,Savings,'Diamond Bank',Self-Employed,2,1,0,2,1,2,3,Good,cluster0
+13,90,Savings,FCMB,Permanent,4,2,0,3,1,3,3,Good,cluster1
+14,15,Other,'Zenith Bank',Permanent,1,1,0,1,2,2,2,Good,cluster0
+15,30,Savings,'Skye Bank',Permanent,3,1,1,2,2,2,3,Good,cluster0
+16,30,Other,'First Bank',Self-Employed,2,1,0,1,1,2,3,Good,cluster0
+17,30,Savings,'First Bank',Self-Employed,2,2,0,1,2,2,3,Good,cluster0
+18,30,Savings,'Fidelity Bank',Permanent,1,1,0,1,1,2,2,Good,cluster0
+19,60,Other,'Diamond Bank',Permanent,3,2,0,2,2,3,3,Good,cluster1
+20,30,Other,'Access Bank',Permanent,2,1,0,1,2,2,2,Good,cluster0
+21,30,Savings,'Access Bank',Student,2,1,0,2,2,2,3,Good,cluster0
+22,30,Other,'GT Bank',Permanent,2,1,0,1,2,2,2,Good,cluster0
+23,60,Savings,UBA,Permanent,3,1,0,2,2,3,2,Good,cluster0
+24,30,Other,'Stanbic IBTC',Self-Employed,3,2,0,2,2,2,3,Good,cluster1
+25,30,Other,'GT Bank',Permanent,4,2,0,3,1,3,3,Good,cluster1
+26,15,Other,UBA,Permanent,1,1,0,1,2,2,2,Good,cluster0
+27,30,Savings,'Sterling Bank',Permanent,2,1,0,1,1,2,3,Good,cluster0
+28,30,Savings,'GT Bank',Student,1,1,1,1,1,2,3,Good,cluster0
+29,30,Other,'GT Bank',Permanent,2,1,1,1,2,2,3,Good,cluster0
+30,15,Savings,'Access Bank',Permanent,1,1,1,1,2,2,3,Good,cluster0
+31,30,Savings,'GT Bank',Self-Employed,3,2,0,2,2,3,3,Good,cluster1
+32,15,Savings,'GT Bank',Unemployed,1,1,0,1,2,2,3,Good,cluster0
+33,30,Savings,'Fidelity Bank',Self-Employed,2,1,0,1,2,2,3,Good,cluster0
+34,30,Other,'Access Bank',Self-Employed,2,2,0,2,2,2,2,Good,cluster1
+35,15,Savings,'Stanbic IBTC',Permanent,1,1,0,1,1,2,3,Good,cluster0
+36,30,Savings,'GT Bank',Self-Employed,1,1,0,1,1,2,3,Good,cluster0
+37,30,Savings,'GT Bank',Self-Employed,1,1,0,1,2,2,2,Good,cluster0
+38,15,Savings,'GT Bank',Permanent,1,2,0,1,1,2,3,Good,cluster0
+39,60,Other,'GT Bank',Self-Employed,4,3,0,3,1,4,3,Good,cluster1
+40,30,Savings,'Diamond Bank',Self-Employed,1,1,0,1,1,2,2,Good,cluster0
+41,30,Other,'Diamond Bank',Self-Employed,1,1,0,1,1,1,3,Good,cluster0
+42,15,Savings,'Stanbic IBTC',Permanent,1,1,0,1,2,2,3,Good,cluster0
+43,30,Savings,'GT Bank',Permanent,1,1,0,1,2,2,3,Good,cluster0
+44,30,Other,UBA,Student,2,1,0,1,1,2,3,Good,cluster0
+45,30,Savings,'GT Bank',Student,3,1,0,2,1,2,3,Good,cluster0
+46,30,Savings,EcoBank,Permanent,2,1,0,2,2,2,3,Good,cluster0
+47,30,Savings,'Sterling Bank',Permanent,2,2,0,2,2,3,2,Good,cluster1
+48,15,Savings,'GT Bank',Student,1,1,1,1,1,2,3,Good,cluster0
+49,30,Savings,'Stanbic IBTC',Self-Employed,2,1,0,1,2,2,3,Good,cluster0
+50,15,Savings,'GT Bank',Permanent,1,1,0,1,1,1,3,Good,cluster0
+51,30,Other,'GT Bank',Self-Employed,2,1,0,1,2,2,2,Good,cluster0
+52,30,Other,'Zenith Bank',Unemployed,2,2,0,2,3,2,3,Good,cluster1
+53,15,Savings,'First Bank',Permanent,1,1,0,1,3,2,3,Good,cluster0
+54,30,Other,'GT Bank',Self-Employed,2,1,0,2,3,2,3,Good,cluster0
+55,30,Savings,UBA,Self-Employed,1,2,0,1,2,2,3,Good,cluster0
+56,30,Savings,'Union Bank',Permanent,2,1,0,1,2,2,3,Good,cluster0
+57,30,Savings,'Diamond Bank',Permanent,2,1,0,2,3,2,3,Good,cluster0
+58,30,Other,'Access Bank',Permanent,1,1,0,1,1,2,2,Good,cluster0
+59,30,Other,'Access Bank',Permanent,1,1,0,1,2,2,3,Good,cluster0
+60,30,Savings,'Wema Bank',Permanent,1,1,0,1,1,2,2,Good,cluster0
+61,30,Savings,'GT Bank',Permanent,1,1,1,1,2,2,3,Good,cluster0
+62,90,Other,'GT Bank',Permanent,4,2,0,3,2,4,3,Good,cluster1
+63,60,Other,'First Bank',Permanent,3,2,0,2,2,3,2,Good,cluster1
+64,30,Savings,FCMB,Permanent,1,1,0,1,1,2,2,Good,cluster0
+65,30,Savings,'Access Bank',Self-Employed,3,2,0,2,2,3,2,Good,cluster1
+66,30,Savings,'Skye Bank',Permanent,1,1,0,1,2,2,2,Good,cluster0
+67,30,Other,'GT Bank',Retired,2,2,0,2,1,3,3,Good,cluster1
+68,30,Savings,UBA,Permanent,2,1,1,1,1,2,3,Good,cluster0
+69,30,Other,'Diamond Bank',Self-Employed,4,2,0,3,2,3,3,Good,cluster1
+70,30,Other,FCMB,Self-Employed,1,1,0,1,1,2,3,Good,cluster0
+71,30,Savings,'GT Bank',Student,1,1,0,1,1,3,3,Good,cluster0
+72,30,Other,'First Bank',Self-Employed,2,2,0,1,2,2,2,Good,cluster0
+73,30,Other,'GT Bank',Permanent,3,2,0,2,1,3,3,Good,cluster1
+74,15,Other,'Diamond Bank',Permanent,1,1,0,1,2,2,3,Good,cluster0
+75,15,Savings,'Zenith Bank',Permanent,1,1,1,1,1,2,3,Good,cluster0
+76,30,Savings,'Wema Bank',Permanent,2,1,0,1,1,2,3,Good,cluster0
+77,30,Other,'GT Bank',Self-Employed,2,2,0,1,2,2,3,Good,cluster0
+78,60,Other,'Diamond Bank',Permanent,2,1,0,2,2,2,3,Good,cluster0
+79,30,Savings,'Union Bank',Student,2,2,0,2,1,2,3,Good,cluster1
+80,60,Savings,'Stanbic IBTC',Permanent,3,2,0,2,1,3,3,Good,cluster1
+81,30,Other,'Access Bank',Student,1,1,0,1,1,2,2,Good,cluster0
+82,30,Savings,'GT Bank',Student,1,1,0,1,1,2,2,Good,cluster0
+83,30,Savings,'GT Bank',Permanent,2,2,0,2,2,2,3,Good,cluster0
+84,30,Savings,FCMB,Self-Employed,2,1,1,1,2,2,3,Good,cluster0
+85,30,Other,'Zenith Bank',Self-Employed,1,1,0,1,1,2,3,Good,cluster0
+86,30,Other,EcoBank,Self-Employed,2,2,0,2,3,2,3,Good,cluster1
+87,30,Other,'GT Bank',Permanent,3,1,0,2,2,2,3,Good,cluster0
+88,30,Other,UBA,Permanent,3,2,0,2,2,3,3,Good,cluster1
+89,30,Savings,'First Bank',Permanent,2,2,0,2,1,2,3,Good,cluster1
+90,30,Other,'Diamond Bank',Permanent,3,2,0,2,2,2,2,Good,cluster1
+91,30,Other,EcoBank,Permanent,1,1,0,1,2,2,3,Good,cluster0
+92,30,Savings,'GT Bank',Self-Employed,3,2,0,2,3,2,3,Good,cluster1
+93,30,Other,'Zenith Bank',Unemployed,1,1,0,1,1,1,2,Good,cluster0
+94,30,Current,'Stanbic IBTC',Permanent,1,1,1,1,3,2,3,Good,cluster0
+95,30,Savings,'Zenith Bank',Permanent,2,1,0,1,1,2,2,Good,cluster0
+96,30,Current,UBA,Permanent,1,1,0,1,2,2,3,Good,cluster0
+97,15,Savings,'First Bank',Student,1,1,1,1,1,2,3,Good,cluster0
+98,30,Savings,UBA,Self-Employed,1,1,0,1,2,2,2,Good,cluster0
+99,15,Other,'GT Bank',Self-Employed,2,1,0,1,1,2,2,Good,cluster0
+100,15,Savings,UBA,Retired,1,1,0,1,1,2,3,Bad,cluster0
+101,15,Savings,UBA,Permanent,2,1,0,1,2,2,3,Bad,cluster0
+102,30,Savings,FCMB,Permanent,1,1,1,1,1,2,2,Bad,cluster0
+103,15,Savings,'Skye Bank',Permanent,1,1,0,1,1,2,2,Bad,cluster0
+104,30,Savings,'First Bank',Permanent,1,1,1,1,3,2,3,Bad,cluster0
+105,30,Savings,EcoBank,Permanent,2,1,1,1,1,2,3,Bad,cluster0
+106,30,Savings,'GT Bank',Permanent,2,1,0,1,1,2,3,Bad,cluster0
+107,30,Savings,'GT Bank',Permanent,1,2,0,1,1,2,2,Bad,cluster0
+108,60,Other,'GT Bank',Permanent,2,2,0,2,1,2,3,Bad,cluster1
+109,30,Savings,'Access Bank',Permanent,1,1,0,1,1,2,3,Bad,cluster0
+110,30,Savings,'GT Bank',Self-Employed,2,1,0,1,1,2,2,Bad,cluster0
+111,60,Savings,EcoBank,Permanent,2,2,0,2,1,2,3,Bad,cluster1
+112,30,Savings,'Zenith Bank',Permanent,2,1,1,1,2,2,3,Bad,cluster0
+113,30,Savings,'Sterling Bank',Permanent,1,1,0,1,2,2,2,Bad,cluster0
+114,30,Other,FCMB,Permanent,2,1,0,1,2,3,2,Bad,cluster0
+115,30,Savings,'Skye Bank',Permanent,1,1,0,1,1,2,2,Bad,cluster0
+116,30,Savings,EcoBank,Permanent,1,1,0,1,1,2,3,Bad,cluster0
+117,30,Savings,'Wema Bank',Permanent,1,1,0,1,2,2,3,Bad,cluster0
+118,30,Other,'Diamond Bank',Self-Employed,2,2,0,2,1,2,2,Bad,cluster1
+119,30,Savings,'Access Bank',Unemployed,2,1,0,1,1,2,3,Bad,cluster0
+120,30,Other,'GT Bank',Self-Employed,2,1,0,2,1,3,3,Bad,cluster1
+121,30,Savings,UBA,Permanent,2,2,0,2,2,2,3,Bad,cluster0
+122,30,Savings,'Fidelity Bank',Permanent,1,1,0,1,2,2,3,Bad,cluster0
+123,15,Savings,'GT Bank',Permanent,1,1,0,1,2,2,2,Bad,cluster0
+124,60,Other,'GT Bank',Permanent,3,2,0,2,2,3,3,Bad,cluster1
+125,60,Other,'GT Bank',Permanent,2,1,0,2,1,2,3,Bad,cluster1
+126,15,Savings,'First Bank',Unemployed,2,1,0,1,1,2,3,Bad,cluster0
+127,15,Savings,'First Bank',Self-Employed,2,1,0,1,2,2,3,Bad,cluster0
+128,60,Other,'First Bank',Self-Employed,2,1,0,2,1,3,3,Bad,cluster1
+129,30,Other,EcoBank,Permanent,2,2,0,2,2,2,3,Bad,cluster1
+130,30,Other,'GT Bank',Permanent,2,1,0,1,2,2,2,Bad,cluster0
+131,15,Savings,UBA,Permanent,1,1,0,1,1,2,3,Bad,cluster0
+132,30,Savings,'Access Bank',Permanent,1,1,1,1,2,2,3,Bad,cluster0
+133,15,Savings,'Skye Bank',Permanent,2,1,0,1,2,2,2,Bad,cluster0
+134,60,Savings,'First Bank',Student,4,2,0,3,1,3,3,Bad,cluster1
+135,30,Savings,'Zenith Bank',Unemployed,2,2,0,2,1,3,3,Bad,cluster1
+136,60,Savings,UBA,Student,3,1,0,2,1,3,2,Bad,cluster1
+137,15,Savings,'GT Bank',Self-Employed,1,1,0,1,1,2,3,Bad,cluster0
+138,15,Savings,'Fidelity Bank',Permanent,1,1,0,1,2,2,3,Bad,cluster0
+139,15,Savings,'Stanbic IBTC',Permanent,1,1,0,1,2,2,3,Bad,cluster0
+140,30,Savings,'Sterling Bank',Permanent,2,1,1,2,2,2,3,Bad,cluster0
+141,15,Savings,'GT Bank',Student,1,1,0,1,1,2,2,Bad,cluster0
+142,30,Savings,'Zenith Bank',Permanent,2,2,0,2,1,3,3,Bad,cluster1
+143,30,Savings,'Stanbic IBTC',Permanent,1,1,0,1,1,2,3,Bad,cluster0
+144,30,Savings,'Diamond Bank',Permanent,1,1,0,1,2,2,2,Bad,cluster0
+145,60,Other,'GT Bank',Permanent,3,1,0,2,1,3,3,Bad,cluster1
+146,15,Other,'Zenith Bank',Permanent,1,2,0,1,2,2,2,Bad,cluster0
+147,15,Savings,'First Bank',Permanent,1,1,0,1,2,2,3,Bad,cluster0
+148,30,Other,'Diamond Bank',Self-Employed,3,2,0,2,1,3,3,Bad,cluster1
+149,15,Savings,'Access Bank',Self-Employed,1,1,0,1,2,2,3,Bad,cluster0
+150,15,Savings,'First Bank',Self-Employed,1,1,0,1,1,2,2,Bad,cluster0
+151,30,Savings,'Stanbic IBTC',Permanent,1,1,0,1,3,2,2,Bad,cluster0
+152,30,Savings,'GT Bank',Self-Employed,1,1,0,1,2,2,3,Bad,cluster0
+153,30,Other,'GT Bank',Self-Employed,1,1,0,1,2,2,2,Bad,cluster0
+154,30,Other,EcoBank,Student,1,1,0,1,1,2,2,Bad,cluster0
+155,30,Other,FCMB,Self-Employed,1,1,0,1,2,2,2,Bad,cluster0
+156,30,Other,'GT Bank',Permanent,2,1,0,2,2,2,3,Bad,cluster0
+157,30,Savings,EcoBank,Permanent,1,1,1,1,1,2,3,Bad,cluster0
+158,30,Other,'GT Bank',Permanent,1,1,0,1,2,2,1,Bad,cluster0
+159,30,Savings,'GT Bank',Permanent,2,1,0,1,2,2,2,Bad,cluster0
+160,60,Other,'Fidelity Bank',Permanent,3,2,0,2,2,2,2,Bad,cluster1
+161,90,Other,FCMB,Permanent,4,3,0,3,1,4,4,Bad,cluster1
+162,15,Savings,UBA,Permanent,1,1,0,1,1,2,2,Bad,cluster0
+163,30,Savings,'Fidelity Bank',Permanent,3,2,0,2,2,3,3,Bad,cluster1
+164,15,Savings,UBA,Permanent,1,1,1,1,1,2,3,Bad,cluster0
+165,30,Savings,'Zenith Bank',Permanent,1,1,0,1,2,2,3,Bad,cluster0
+166,15,Other,'GT Bank',Permanent,1,1,0,1,2,2,2,Bad,cluster0
+167,30,Savings,'GT Bank',Permanent,1,1,0,1,1,2,3,Bad,cluster0
+168,30,Savings,'Access Bank',Permanent,1,1,0,1,2,2,3,Bad,cluster0
+169,30,Savings,FCMB,Permanent,2,1,0,2,2,3,3,Bad,cluster0
+170,30,Savings,UBA,Student,1,1,0,1,1,2,3,Bad,cluster0
+171,15,Savings,'Sterling Bank',Permanent,1,1,1,1,2,2,3,Bad,cluster0
+172,15,Savings,'Access Bank',Permanent,1,1,0,1,2,2,2,Bad,cluster0
+173,15,Savings,'Stanbic IBTC',Permanent,1,1,1,1,2,2,2,Bad,cluster0
+174,30,Savings,FCMB,Permanent,2,1,1,1,3,2,3,Bad,cluster0
+175,15,Savings,'Access Bank',Permanent,1,1,1,1,3,2,3,Bad,cluster0
+176,30,Savings,'First Bank',Permanent,2,1,0,2,2,2,3,Bad,cluster0
+177,30,Savings,'Stanbic IBTC',Permanent,1,1,1,1,2,2,2,Bad,cluster0
+178,30,Savings,'GT Bank',Permanent,1,1,0,1,1,2,2,Bad,cluster0
+179,30,Savings,'GT Bank',Student,2,1,1,1,1,2,3,Bad,cluster0
+180,30,Savings,'Stanbic IBTC',Self-Employed,1,1,0,1,2,2,2,Bad,cluster0
+181,60,Other,'GT Bank',Permanent,2,1,0,2,2,2,3,Bad,cluster0
+182,30,Other,EcoBank,Permanent,2,1,0,1,2,2,3,Bad,cluster0
+183,60,Savings,'Access Bank',Permanent,2,1,0,2,1,2,3,Bad,cluster0
+184,15,Other,'GT Bank',Permanent,1,1,0,1,1,2,2,Bad,cluster0
+185,30,Savings,FCMB,Permanent,2,1,1,1,2,2,3,Bad,cluster0
+186,15,Savings,'GT Bank',Permanent,2,1,0,1,1,2,2,Bad,cluster0
+187,30,Savings,'GT Bank',Permanent,1,1,1,1,2,2,2,Bad,cluster0
+188,30,Savings,'Skye Bank',Permanent,2,1,1,1,2,2,3,Bad,cluster0
+189,90,Other,'Diamond Bank',Permanent,4,2,0,3,2,3,3,Bad,cluster1
+190,15,Savings,'Skye Bank',Permanent,1,1,1,1,1,2,2,Bad,cluster0
+191,30,Savings,'Fidelity Bank',Student,1,1,0,1,1,2,2,Bad,cluster0
+192,30,Savings,'Heritage Bank',Permanent,1,1,0,1,1,2,2,Bad,cluster0
+193,30,Savings,'First Bank',Permanent,1,1,0,1,3,2,3,Bad,cluster0
+194,30,Savings,FCMB,Permanent,1,1,1,1,2,2,3,Bad,cluster0
+195,30,Savings,'GT Bank',Student,2,1,1,1,3,2,3,Bad,cluster0
+196,60,Other,'GT Bank',Self-Employed,3,2,0,2,1,3,3,Bad,cluster1
+197,30,Savings,'Diamond Bank',Self-Employed,2,1,0,2,1,2,3,Bad,cluster0
+198,15,Savings,'GT Bank',Permanent,2,2,0,1,1,2,3,Bad,cluster0
+199,30,Other,FCMB,Permanent,2,1,0,1,1,2,2,Bad,cluster0
